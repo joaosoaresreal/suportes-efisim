@@ -30,10 +30,12 @@ Site estático para download das ferramentas de suporte remoto usadas pela Efisi
 
 ## Ferramentas (ordem exibida)
 
-1. **AnyDesk** — "Acesso remoto leve e rápido" — `anydesk.exe`
-2. **RustDesk** — "Compilação própria Efisim" (build custom deles) — `rustdesk-jb.exe`
-3. **Efisim Suporte** — sem descrição extra (ferramenta própria) — `efisim-suporte.exe`
-4. **TeamViewer** — "Acesso remoto clássico e confiável" — `teamviwer_qs.exe` (typo no nome do arquivo, exibir sempre "TeamViewer")
+1. **AnyDesk** — `anydesk.exe`
+2. **RustDesk** — compilação própria Efisim — `rustdesk-jb.exe`
+3. **Efisim Suporte** — ferramenta própria — `efisim-suporte.exe`
+4. **TeamViewer** — `teamviwer_qs.exe` (typo no nome do arquivo, exibir sempre "TeamViewer")
+
+- Os cards exibem apenas logo + nome (descrições removidas)
 
 ## Hospedagem
 
@@ -50,3 +52,9 @@ Site estático para download das ferramentas de suporte remoto usadas pela Efisi
 - Aliases `@/*` em `vite.config.ts` e `tsconfig*.json`
 - `lint` e `build` passando
 - Pendências futuras: definir destino de `public/teste.png` (arquivo solto na raiz do public)
+
+### 2026-10-15 — Sessão 2
+- Descrições dos cards removidas (dados + código); cards com logo + nome maiores, centralizados
+- README completo criado
+- Logo branco adicionado pelo usuário em `public/efisim_logo_branco.webp` — ainda não usado no footer
+- Commits feitos no padrão gitmoji
